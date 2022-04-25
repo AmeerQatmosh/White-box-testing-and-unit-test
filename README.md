@@ -22,7 +22,8 @@
 
 ## Calculate
 
-![image](https://user-images.githubusercontent.com/68341128/165047799-bda4a7f0-8853-4fe9-8c88-ef6626206182.png)
+![image](https://user-images.githubusercontent.com/68341128/165050189-770a7896-fdb7-4489-9334-0770cfdb7b4c.png)
+
 
 ## IsExit
 
