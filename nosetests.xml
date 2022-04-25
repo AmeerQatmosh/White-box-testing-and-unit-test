@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="20" errors="7" failures="2" skip="0"><testcase classname="test_calculatorApp.TestCalculate" name="testCase_1_Add" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="testCase_1_Calculate" time="0.000"><error type="builtins.ValueError" message="inputs can not be null&#10;-------------------- &gt;&gt; begin captured stdout &lt;&lt; ---------------------&#10;Setup .. &#10;inputs can not be null&#10;tearDown .. &#10;&#10;--------------------- &gt;&gt; end captured stdout &lt;&lt; ----------------------"><![CDATA[  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 592, in run
+    self._callTestMethod(testMethod)
+  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 550, in _callTestMethod
+    method()
+  File "C:\Users\ameer\UnitTestInPython\test_calculatorApp.py", line 101, in testCase_1_Calculate
+    self.assertRaises(ValueError, calculate('1', 0, 7))
+  File "C:\Users\ameer\UnitTestInPython\calculatorApp.py", line 52, in calculate
+    raise ValueError("inputs can not be null")
+inputs can not be null
+-------------------- >> begin captured stdout << ---------------------
+Setup .. 
+inputs can not be null
+tearDown .. 
+
+--------------------- >> end captured stdout << ----------------------]]></error><system-out><![CDATA[Setup .. 
+inputs can not be null
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="testCase_1_Divide" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="testCase_1_IsExit" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="testCase_1_Multiply" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="testCase_1_Subtract" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="testCase_1_check_user_input" time="0.000"><error type="builtins.ValueError" message="Input can't be empty&#10;-------------------- &gt;&gt; begin captured stdout &lt;&lt; ---------------------&#10;Setup .. &#10;Input can't be empty&#10;tearDown .. &#10;&#10;--------------------- &gt;&gt; end captured stdout &lt;&lt; ----------------------"><![CDATA[  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 592, in run
+    self._callTestMethod(testMethod)
+  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 550, in _callTestMethod
+    method()
+  File "C:\Users\ameer\UnitTestInPython\test_calculatorApp.py", line 59, in testCase_1_check_user_input
+    self.assertEqual(ValueError,check_user_input(""))
+  File "C:\Users\ameer\UnitTestInPython\calculatorApp.py", line 6, in check_user_input
+    raise ValueError("Input can't be empty")
+Input can't be empty
+-------------------- >> begin captured stdout << ---------------------
+Setup .. 
+Input can't be empty
+tearDown .. 
+
+--------------------- >> end captured stdout << ----------------------]]></error><system-out><![CDATA[Setup .. 
+Input can't be empty
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="testCase_2_Calculate" time="0.000"><error type="builtins.Exception" message="Invalid choice!&#10;-------------------- &gt;&gt; begin captured stdout &lt;&lt; ---------------------&#10;Setup .. &#10;tearDown .. &#10;&#10;--------------------- &gt;&gt; end captured stdout &lt;&lt; ----------------------"><![CDATA[  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 592, in run
+    self._callTestMethod(testMethod)
+  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 550, in _callTestMethod
+    method()
+  File "C:\Users\ameer\UnitTestInPython\test_calculatorApp.py", line 104, in testCase_2_Calculate
+    self.assertRaises(Exception, calculate('7', 7, 8))
+  File "C:\Users\ameer\UnitTestInPython\calculatorApp.py", line 73, in calculate
+    raise Exception("Invalid choice!")
+Invalid choice!
+-------------------- >> begin captured stdout << ---------------------
+Setup .. 
+tearDown .. 
+
+--------------------- >> end captured stdout << ----------------------]]></error><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="testCase_2_Divide" time="0.000"><error type="builtins.ZeroDivisionError" message="You can't divide by zero!&#10;-------------------- &gt;&gt; begin captured stdout &lt;&lt; ---------------------&#10;Setup .. &#10;You can't divide by zero!&#10;tearDown .. &#10;&#10;--------------------- &gt;&gt; end captured stdout &lt;&lt; ----------------------"><![CDATA[  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 592, in run
+    self._callTestMethod(testMethod)
+  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 550, in _callTestMethod
+    method()
+  File "C:\Users\ameer\UnitTestInPython\test_calculatorApp.py", line 92, in testCase_2_Divide
+    self.assertRaises(ZeroDivisionError, divide(9,0))
+  File "C:\Users\ameer\UnitTestInPython\calculatorApp.py", line 39, in divide
+    raise ZeroDivisionError("You can't divide by zero!")
+You can't divide by zero!
+-------------------- >> begin captured stdout << ---------------------
+Setup .. 
+You can't divide by zero!
+tearDown .. 
+
+--------------------- >> end captured stdout << ----------------------]]></error><system-out><![CDATA[Setup .. 
+You can't divide by zero!
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="testCase_2_IsExit" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="testCase_2_check_user_input" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="testCase_3_Calculate" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="testCase_3_Divide" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="testCase_3_IsExit" time="0.000"><error type="builtins.ValueError" message="Invalid choice&#10;-------------------- &gt;&gt; begin captured stdout &lt;&lt; ---------------------&#10;Setup .. &#10;tearDown .. &#10;&#10;--------------------- &gt;&gt; end captured stdout &lt;&lt; ----------------------"><![CDATA[  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 592, in run
+    self._callTestMethod(testMethod)
+  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 550, in _callTestMethod
+    method()
+  File "C:\Users\ameer\UnitTestInPython\test_calculatorApp.py", line 139, in testCase_3_IsExit
+    self.assertRaises(ValueError, isExit ("else"))
+  File "C:\Users\ameer\UnitTestInPython\calculatorApp.py", line 83, in isExit
+    raise ValueError("Invalid choice")
+Invalid choice
+-------------------- >> begin captured stdout << ---------------------
+Setup .. 
+tearDown .. 
+
+--------------------- >> end captured stdout << ----------------------]]></error><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="testCase_3_check_user_input" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="testCase_4_Calculate" time="0.000"><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="testCase_4_check_user_input" time="0.000"><error type="builtins.ValueError" message="string input is not a number!&#10;-------------------- &gt;&gt; begin captured stdout &lt;&lt; ---------------------&#10;Setup .. &#10;string input is not a number!&#10;tearDown .. &#10;&#10;--------------------- &gt;&gt; end captured stdout &lt;&lt; ----------------------"><![CDATA[  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 592, in run
+    self._callTestMethod(testMethod)
+  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 550, in _callTestMethod
+    method()
+  File "C:\Users\ameer\UnitTestInPython\test_calculatorApp.py", line 68, in testCase_4_check_user_input
+    self.assertEqual(ValueError,check_user_input("string"))
+  File "C:\Users\ameer\UnitTestInPython\calculatorApp.py", line 18, in check_user_input
+    raise ValueError(input + " input is not a number!")
+string input is not a number!
+-------------------- >> begin captured stdout << ---------------------
+Setup .. 
+string input is not a number!
+tearDown .. 
+
+--------------------- >> end captured stdout << ----------------------]]></error><system-out><![CDATA[Setup .. 
+string input is not a number!
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="testCase_5_Calculate" time="0.000"><failure type="builtins.AssertionError" message="(8, '*', 2, '=', 16) != 16&#10;-------------------- &gt;&gt; begin captured stdout &lt;&lt; ---------------------&#10;Setup .. &#10;tearDown .. &#10;&#10;--------------------- &gt;&gt; end captured stdout &lt;&lt; ----------------------"><![CDATA[  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 592, in run
+    self._callTestMethod(testMethod)
+  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 550, in _callTestMethod
+    method()
+  File "C:\Users\ameer\UnitTestInPython\test_calculatorApp.py", line 119, in testCase_5_Calculate
+    self.assertEqual(result,16)
+  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+(8, '*', 2, '=', 16) != 16
+-------------------- >> begin captured stdout << ---------------------
+Setup .. 
+tearDown .. 
+
+--------------------- >> end captured stdout << ----------------------]]></failure><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="testCase_6_Calculate" time="0.000"><failure type="builtins.AssertionError" message="(8, '/', 2, '=', 4) != 4&#10;-------------------- &gt;&gt; begin captured stdout &lt;&lt; ---------------------&#10;Setup .. &#10;tearDown .. &#10;&#10;--------------------- &gt;&gt; end captured stdout &lt;&lt; ----------------------"><![CDATA[  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 592, in run
+    self._callTestMethod(testMethod)
+  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 550, in _callTestMethod
+    method()
+  File "C:\Users\ameer\UnitTestInPython\test_calculatorApp.py", line 124, in testCase_6_Calculate
+    self.assertEqual(result, 4)
+  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+(8, '/', 2, '=', 4) != 4
+-------------------- >> begin captured stdout << ---------------------
+Setup .. 
+tearDown .. 
+
+--------------------- >> end captured stdout << ----------------------]]></failure><system-out><![CDATA[Setup .. 
+tearDown .. 
+]]></system-out></testcase><testcase classname="test_calculatorApp.TestCalculate" name="testCase_7_Calculate" time="0.000"><error type="builtins.ZeroDivisionError" message="You can't divide by zero!&#10;-------------------- &gt;&gt; begin captured stdout &lt;&lt; ---------------------&#10;Setup .. &#10;You can't divide by zero!&#10;tearDown .. &#10;&#10;--------------------- &gt;&gt; end captured stdout &lt;&lt; ----------------------"><![CDATA[  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 592, in run
+    self._callTestMethod(testMethod)
+  File "C:\Users\ameer\AppData\Local\Programs\Python\Python39\lib\unittest\case.py", line 550, in _callTestMethod
+    method()
+  File "C:\Users\ameer\UnitTestInPython\test_calculatorApp.py", line 127, in testCase_7_Calculate
+    self.assertRaises(ZeroDivisionError,calculate('4', 8, '0'))
+  File "C:\Users\ameer\UnitTestInPython\calculatorApp.py", line 70, in calculate
+    raise ZeroDivisionError("You can't divide by zero!")
+You can't divide by zero!
+-------------------- >> begin captured stdout << ---------------------
+Setup .. 
+You can't divide by zero!
+tearDown .. 
+
+--------------------- >> end captured stdout << ----------------------]]></error><system-out><![CDATA[Setup .. 
+You can't divide by zero!
+tearDown .. 
+]]></system-out></testcase></testsuite>
