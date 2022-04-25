@@ -31,7 +31,14 @@
 
 # The full list of all independent paths for each method
 
+![Check User Input](https://user-images.githubusercontent.com/68341128/165051908-18cc876b-99b1-4495-ac9f-68b3baceeb07.png)
 
-[Unit test.docx](https://github.com/AmeerQatmosh/White-box-testing-and-unit-test/files/8552802/Unit.test.docx)
+![asmd](https://user-images.githubusercontent.com/68341128/165051935-f115b63a-9335-4e38-901e-4b21b76d7548.png)
+
+
+![Calculate](https://user-images.githubusercontent.com/68341128/165051946-8aab8d07-cfec-4ff0-b674-20831e94caff.png)
+
+
+![Is Exit](https://user-images.githubusercontent.com/68341128/165051987-92c6876a-f338-43ca-a9c9-156eaab07da5.png)
 
 
