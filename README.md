@@ -1,102 +1,36 @@
-# Testing in Python: Unit Tests
+# Flow graph analysis (CFG / Flow Graph) for each method
+
+## Check User Input
+
+![image](https://user-images.githubusercontent.com/68341128/165047298-42e4f827-2ecf-4294-8c9b-969ba2886957.png)
+
+## Add
+
+![image](https://user-images.githubusercontent.com/68341128/165047488-990cf704-2c35-4ecf-bec3-4cba447e8643.png)
+
+## Subtract 
+
+![image](https://user-images.githubusercontent.com/68341128/165047521-008418d4-a456-46cc-bf33-7ee1d0d5a6f1.png)
+
+## Multiply
+
+![image](https://user-images.githubusercontent.com/68341128/165047660-69d3d6c4-aa5f-43cf-b721-6b9390485ac8.png)
+
+## Divide
+
+![image](https://user-images.githubusercontent.com/68341128/165047735-607db0f9-ee5e-48af-983e-fe30267487f4.png)
+
+## Calculate
+
+![image](https://user-images.githubusercontent.com/68341128/165047799-bda4a7f0-8853-4fe9-8c88-ef6626206182.png)
+
+## IsExit
+
+![image](https://user-images.githubusercontent.com/68341128/165047954-84a47fe8-4544-4dde-844e-f05b24442d49.png)
+
+# The full list of all independent paths for each method
 
 
-This repo conatins an exmaple how to write a unit tests in python. In this repo, I show how to run the unit tests, I also go through a process of achieving 100% test coverage by demonstrating:
-- **unittest** 
-- **pytest**
-- **coverage.py**
-- **pytest-cov**
-<br/>
-With all these things I achieve 100% Test Coverage in Python.
-
-# Unit test in python slides in the below link 
-
-- https://bit.ly/3uOmny9
-
-# Setup
-- Create a dirctory for the app: ie  
-```console
-mkdir project 
-```
-- Clone the project: 
-```console
-git clone git@github.com:mkassaf/UnitTestInPython.git 
-```
-- Go to the app:  
-```console 
-cd UnitTestInPython 
-```
-- Creating virtual environments:  
-```console
-python3 -m venv vnev
-```
-- Activate virtual environment: 
-```console
-source vnev/bin/activate 
-```
-- install the dependanceies:  
-```console
-pip3 install -r requirements.txt 
-```
-
-# Steps 
-
-## Run test using pytest
-
-```console
-pytest test_calculatorApp.py 
-```
-
-## Result summary report in python nosetests
-
-- You can run tests for your project using this **nosetests** : 
-```console
-    nosetests 
-```
-- For help with nosetests’ many command-line options, try : 
-```console
-    nosetests -h 
-```
-- For example, 
-```console 
-nosetests --with-xunit 
-``` 
-generates a xml file conatin the test cases run report.
-## Code coverage
-- To analyses file, Run: 
-```console  
-    coverage run calculatorApp.py 
-```
-- To generate outputs anaylsys and shows covered lines, Run:  
-```console  
-    coverage report -m 
-```
-- To create a more concise html version of the report, Run:  
- ```console 
-    coverage html 
- ```
-
-## Run the test and generate code coverage
-- Run the following command to run the tests and print the code coverage:
-    - 
-    ```console 
-    pytest --cov=calculatorApp 
-    ```
-- Run the following command to run the tests and generate html report for the code coverage: 
-    - 
-    ```console 
-    pytest --cov=calculatorApp --cov-report=html 
-    ```
+[Unit test.docx](https://github.com/AmeerQatmosh/White-box-testing-and-unit-test/files/8552802/Unit.test.docx)
 
 
-# Refernces 
-- https://docs.python.org/3/library/unittest.html#unittest.TestCase.assertRaises
-- https://coverage.readthedocs.io/en/6.3.2/
-- https://realpython.com/python-testing/
-- https://docs.python.org/3/library/venv.html
-- https://www.datacamp.com/community/tutorials/unit-testing-python
-- https://docs.python.org/3/library/unittest.html
-- https://geekflare.com/unit-testing-with-python-unittest/
-- https://www.youtube.com/watch?v=7BJ_BKeeJyM&ab_channel=SBCODE
-- https://docs.python.org/3/library/unittest.mock.html#unittest.mock.patch
-- https://realpython.com/python-mock-library/#patch
