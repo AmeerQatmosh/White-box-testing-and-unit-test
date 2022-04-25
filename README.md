@@ -4,17 +4,8 @@
 
 ![image](https://user-images.githubusercontent.com/68341128/165047298-42e4f827-2ecf-4294-8c9b-969ba2886957.png)
 
-## Add
-
-![image](https://user-images.githubusercontent.com/68341128/165047488-990cf704-2c35-4ecf-bec3-4cba447e8643.png)
-
-## Subtract 
-
-![image](https://user-images.githubusercontent.com/68341128/165047521-008418d4-a456-46cc-bf33-7ee1d0d5a6f1.png)
-
-## Multiply
-
-![image](https://user-images.githubusercontent.com/68341128/165047660-69d3d6c4-aa5f-43cf-b721-6b9390485ac8.png)
+## Add, Subtract, and Multiply
+![image](https://user-images.githubusercontent.com/68341128/165053539-23bdfc5a-1d89-4810-95f3-0b44c7fdaac3.png)
 
 ## Divide
 
@@ -22,8 +13,7 @@
 
 ## Calculate
 
-![image](https://user-images.githubusercontent.com/68341128/165050189-770a7896-fdb7-4489-9334-0770cfdb7b4c.png)
-
+![calculateF](https://user-images.githubusercontent.com/68341128/165056394-e7fe7155-b436-412a-84d5-2bc958b5c425.png)
 
 ## IsExit
 
@@ -31,13 +21,21 @@
 
 # The full list of all independent paths for each method
 
+## Check User Input
+
 ![Check User Input](https://user-images.githubusercontent.com/68341128/165051908-18cc876b-99b1-4495-ac9f-68b3baceeb07.png)
+
+## Add, Subtract, Multiply, and Divide
 
 ![asmd](https://user-images.githubusercontent.com/68341128/165051935-f115b63a-9335-4e38-901e-4b21b76d7548.png)
 
 
-![Calculate](https://user-images.githubusercontent.com/68341128/165051946-8aab8d07-cfec-4ff0-b674-20831e94caff.png)
+## Calculate
 
+![Unit Test](https://user-images.githubusercontent.com/68341128/165054186-984598d0-3ffe-46a1-beba-2c898a149234.jpg)
+
+
+## IsExit
 
 ![Is Exit](https://user-images.githubusercontent.com/68341128/165051987-92c6876a-f338-43ca-a9c9-156eaab07da5.png)
 
